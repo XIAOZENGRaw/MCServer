@@ -1,4 +1,4 @@
-# Minecraft服务器查询API -
+# Minecraft服务器查询API 
 这是使用Bun运行时的空旷Minecraft服务器查询API。
 
 ## 功能
