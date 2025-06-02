@@ -1,0 +1,25 @@
+{
+  "name": "kongkuang-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "bun --watch run index.js",
+    "build": "echo 'No build step required for Bun'",
+    "stop": "kill-port 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "空旷Minecraft服务器查询API",
+  "dependencies": {
+    "bedrock-protocol": "^3.45.0",
+    "bun": "^1.2.15",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mc-ping-updated": "^0.1.1"
+  },
+  "devDependencies": {
+    "kill-port": "2.0.1"
+  }
+}
